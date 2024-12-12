@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: '*' }));
 
 const mostPopularLanguages = new sqlite3.Database(path.join(__dirname, 'mostPopularLanguages.db'));
 const allLanguages = new sqlite3.Database(path.join(__dirname, 'allLanguages.db'));
@@ -38,7 +38,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
 });
 
-const port = 3000;
-app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
+app.listen(3000, () => {
+    console.log('Server running!');
 });
