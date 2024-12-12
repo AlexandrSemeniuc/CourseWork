@@ -21,35 +21,35 @@ db.serialize(() => {
             popularityRank: 1, 
             name: 'Python', 
             creationDate: '20.02.1991', 
-            imagePath: 'assets/python.svg',
+            imagePath: 'https://coursework-7jhk.onrender.com/assets/python.svg',
             description: 'Высокоуровневый язык, популярный для анализа данных, машинного обучения и веб-разработки.'
         },
         { 
             popularityRank: 2, 
             name: 'C++', 
             creationDate: '15.10.1985', 
-            imagePath: 'assets/cplusplus.svg',
+            imagePath: 'https://coursework-7jhk.onrender.com/assets/cplusplus.svg',
             description: 'Мощный язык с возможностью низкоуровневого программирования, используется для создания операционных систем, игр и приложений с высокой производительностью.'
         },
         { 
             popularityRank: 3, 
             name: 'Java', 
             creationDate: '23.05.1995', 
-            imagePath: 'assets/java.svg',
+            imagePath: 'https://coursework-7jhk.onrender.com/assets/java.svg',
             description: 'Многоцелевой язык, широко используемый в корпоративных приложениях, мобильных и веб-сервисах.'
         },
         { 
             popularityRank: 4, 
             name: 'C#', 
             creationDate: '01.01.2000', 
-            imagePath: 'assets/csharp.svg',
+            imagePath: 'https://coursework-7jhk.onrender.com/assets/csharp.svg',
             description: 'Язык, разработанный Microsoft для создания приложений на платформе .NET.'
         },
         { 
             popularityRank: 5, 
             name: 'JavaScript', 
             creationDate: '04.12.1995', 
-            imagePath: 'assets/javascript.svg',
+            imagePath: 'https://coursework-7jhk.onrender.com/assets/javascript.svg',
             description: 'Язык программирования для создания интерактивных веб-страниц и серверных приложений.'
         },
     ];
